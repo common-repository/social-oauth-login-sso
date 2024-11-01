@@ -1,0 +1,348 @@
+.ec_pricing_page{
+	width: auto;
+	margin: 10px;
+}
+.ec_pricing_page h5{
+	font-size:1.125rem;
+	line-height:1.75rem;
+}
+
+.ec_pricing_page h1{
+	font-size:2rem;
+	line-height:1.75rem;
+}
+
+.ec_pricing_page * {
+    font-family: Inter,sans-serif;
+}
+
+.ec_mt_4{
+	margin-top:1rem;
+}
+
+.ec_switch_box,.ec_switch_item.ec_switch_active{
+	background-color:rgb(255 255 255 / var(--tw-bg-opacity));
+	--tw-bg-opacity:1;
+}
+
+.ec_switch_box{
+	border-bottom:1px solid;
+	display:flex;
+	width:100%;
+	align-items:center;
+	justify-content:center;
+	--tw-border-opacity:1;
+	border-color:rgb(203 213 225 / var(--tw-border-opacity));
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.ec_switch_item, .ec_switch_wrapper{
+	display:flex;
+	border-radius:9999px;
+}
+
+.ec_switch_wrapper{
+	margin-left:1rem;
+	--tw-bg-opacity:1;
+	background-color:rgb(241 245 249 / var(--tw-bg-opacity));
+	padding:.5rem;
+}
+
+.ec_addon_card, .ec_switch_item.ec_switch_active{
+	--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1),0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);
+}
+
+.ec_addon_card, .ec_switch_item.ec_switch_active{
+	box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.ec_switch_item, .ec_switch_wrapper{
+	display:flex;
+	border-radius:9999px;
+}
+
+.ec_switch_item{
+	color:rgb(0 0 0 / var(--tw-text-opacity));
+	text-decoration-line:none;
+	--tw-text-opacity:1;
+}
+
+.ec_switch_item{
+	cursor:pointer;
+	align-items:center;
+	justify-content:center;
+	background-color:transparent;
+	padding:.5rem 1rem;
+	font-size:.875rem;
+	line-height:1.25rem;
+}
+
+.ec_switch_item:focus{
+	border-width:0;
+	outline-width:0;
+}
+
+.ec_switch_item.ec_switch_active{
+	font-weight:700;
+}
+
+.ec_rounded_b_lg{
+	border-bottom-right-radius:.5rem;
+	border-bottom-left-radius:.5rem;
+}
+
+.ec_pricing_table tr:nth-child(2n){
+	--tw-bg-opacity:1;
+	background-color:rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.ec_pricing_table{
+	outline:0;border:none;
+	font-size:12px;
+	width:100%;
+	text-align:left;
+	line-height:1.75rem;
+	border-collapse:collapse;
+}
+
+.ec_pricing_table_block{
+	padding:1rem;
+	--tw-text-opacity:1;
+	color:rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.ex_text_xs{
+	font-size:.75rem;
+	line-height:1rem;
+}
+
+.ec_text_gray_700{
+	--tw-text-opacity:1;
+	color:rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.ec_bg_gray_50{
+	--tw-bg-opacity:1;
+	background-color:rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.even\:ec_bg_slate_300:nth-child(2n){
+	--tw-bg-opacity:1;
+	background-color:rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.ec_py_3{
+	padding-top:.75rem;
+	padding-bottom:.75rem;
+}
+
+.ec_px_6{
+	padding-left:1.5rem;
+	padding-right:1.5rem;
+}
+
+.ec_license_flex{
+	display:flex;
+	width: 100%;
+}
+
+.ec_m_0{
+	margin:0;
+	text-align:center;
+}
+
+.ec_license_strike{
+	color:red;
+}
+
+.ec_bg_white,.mo-app-header,.mo-plugin-wrapper{
+	background-color:rgb(255 255 255 / var(--tw-bg-opacity));
+	--tw-bg-opacity:1;
+}
+
+.ec_license_justify_center{justify-content:center}
+
+.ec_license_button.primary {
+    --tw-bg-opacity: 1;
+    background-color: #365b6d;
+}
+.ec_license_button.primary{
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+}
+.ec_license_button {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    border-radius: 0.375rem;
+    border-style: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media (min-width: 640px){
+	.ec_license_button {
+		width: auto;
+	}
+}
+
+.ec_license_button.secondary:hover{
+	--tw-bg-opacity:1;
+	background-color:rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.ec_license_button,.ec_license_text_center{
+	text-align:center;
+}
+
+.ec_license_button,.ec_license_button:hover{
+	text-decoration-line:none;
+}
+
+.ec_pricing_policy_layout{
+	width:96%;
+	margin:auto;
+}
+
+.ec_payment_methord{
+	display:block;
+	box-sizing:border-box;
+	width:100%;margin:auto;
+}
+
+.ec_payment_deck{
+	box-sizing:border-box;
+	text-align:center!important;
+	margin-bottom:1rem!important;
+	flex-flow:row wrap;
+	display:flex;
+	justify-content:center;
+	margin:auto;
+}
+
+.ec_payment_card{
+	margin:16px 20px 20px;
+	border-radius:2%;
+	height:240px;
+	width:250px;
+	border:1px solid #ecebeb;
+	background-color:#b169aa1a;
+	box-shadow:1px 1px 1px 1px;
+}
+
+.ec_payment_card,.ec_payment_deck{
+	box-sizing:border-box;
+	text-align:center!important;
+}
+
+.ec_payment_card_header{
+	box-sizing:border-box;
+	text-align:center!important;
+	display:block;
+}
+
+.ec_payment_card_body{
+	padding:1.25rem;
+}
+
+.ec_payment_card_body,.ec_payment_card_header{
+	box-sizing:border-box;
+	text-align:center!important;
+	display:block;
+}
+
+.ec_payment_note{
+	margin:auto;text-align:center;
+}
+
+.ec_addon_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.ec_addon_section{
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.ec_addon_card {
+    flex-direction: column;
+    border-radius: 0.125rem;
+    padding: 1.25rem;
+	width: 250px;
+}
+
+.ec_addon_card{
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    display: flex;
+    --tw-bg-opacity: 1;
+}
+
+.ec_addon_card, .ec_switch_item.ec_switch_active{
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+.ec_flex_height{
+	flex-grow: 1;
+}
+
+.ec_mt_6 {
+    margin-top: 1.5rem;
+}
+
+.ec_bold_font_lic {
+    font-weight: 700;
+}
+
+.ec_feature_snippet {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ec_mt_1 {
+    margin-top: 0.25rem;
+}
+
+.ec_license_button.secondary {
+    border: 1px solid rgb(203 213 225);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.ec_license_button.ec_license_inverted {
+    background-color: #315363;
+}
+
+.ec_license_button.alert, .ec_license_button.ec_license_inverted {
+    border-width: 1px;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+}
+
+.ec_mr_1{
+    margin-right: 0.25rem;
+}
+.ec_addon_price_tag{
+	float:right;
+	margin-top:15px; 
+	font-size:160%; 
+	font-weight:bold;
+}
